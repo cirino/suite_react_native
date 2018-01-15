@@ -20,9 +20,14 @@ const SubHeader = () => (
         <Text style={styles.bio}>Mulher da minha vida. Te amo muito meu amor, coração, sonho :)</Text>
 
         <View style={styles.buttonContainer}>
-          <ButtonPersonalizado style={styles.firstButton} 
-            onPress={() => alert("Lembre-se ...\nTe amo!")}>Mensagem</ButtonPersonalizado>
-          <ButtonPersonalizado type="outline">Seguir</ButtonPersonalizado>
+          <ButtonPersonalizado 
+            style={styles.firstButton} 
+            target={() => alert("Lembre-se ...\nTe amo!")}>
+              Mensagem
+          </ButtonPersonalizado>
+          <ButtonPersonalizado type="outline">
+            Seguir
+          </ButtonPersonalizado>
         </View>
       </View>
     </View>
