@@ -8,46 +8,46 @@ const Tabuada = () => {
         <View style={ styles.container }>
             <View style={styles.selecionar}>
                 <ButtonTabuada
-                onPress={() => alert("Lembre-se ...\nTabuada!")}>
-                1
+                target={() => alert("Lembre-se ...\nTabuada!")}>
+                    1
                 </ButtonTabuada>
                 <ButtonTabuada
-                onPress={() => alert("Lembre-se ...\nTabuada!")}>
+                target={() => alert("Lembre-se ...\nTabuada!")}>
                     2
                 </ButtonTabuada>
                 <ButtonTabuada
-                onPress={() => alert("Lembre-se ...\nTabuada!")}>
+                target={() => alert("Lembre-se ...\nTabuada!")}>
                     3
                 </ButtonTabuada>
                 <ButtonTabuada
-                onPress={() => alert("Lembre-se ...\nTabuada!")}>
+                target={() => alert("Lembre-se ...\nTabuada!")}>
                     4
                 </ButtonTabuada>
                 <ButtonTabuada
-                onPress={() => alert("Lembre-se ...\nTabuada!")}>
+                target={() => alert("Lembre-se ...\nTabuada!")}>
                     5
                 </ButtonTabuada>
             </View>
             <View style={styles.selecionar}>                
                 <ButtonTabuada
-                onPress={() => alert("Lembre-se ...\nTabuada!")}>
-                6
+                target={() => alert("Lembre-se ...\nTabuada!")}>
+                    6
                 </ButtonTabuada>
                 <ButtonTabuada
-                onPress={() => alert("Lembre-se ...\nTabuada!")}>
-                7
+                target={() => alert("Lembre-se ...\nTabuada!")}>
+                    7
                 </ButtonTabuada>
                 <ButtonTabuada
-                onPress={() => alert("Lembre-se ...\nTabuada!")}>
-                8
+                target={() => alert("Lembre-se ...\nTabuada!")}>
+                    8
                 </ButtonTabuada>
                 <ButtonTabuada
-                onPress={() => alert("Lembre-se ...\nTabuada!")}>
-                9
+                target={() => alert("Lembre-se ...\nTabuada!")}>
+                    9
                 </ButtonTabuada>
                 <ButtonTabuada
-                onPress={() => alert("Lembre-se ...\nTabuada!")}>
-                10
+                target={() => alert("Lembre-se ...\nTabuada!")}>
+                    10
                 </ButtonTabuada>
             </View>
         </View>
