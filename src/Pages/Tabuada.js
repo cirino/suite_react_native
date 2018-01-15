@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 
-import { ButtonTabuada, ButtonPersonalizado } from '../components/Button';
+import { ButtonTabuada } from '../components/Button';
 
 const Tabuada = () => {
     return (
