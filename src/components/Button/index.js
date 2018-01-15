@@ -3,14 +3,14 @@ import { Text, TouchableOpacity } from 'react-native';
 
 import styles from './styles';
 
-const ButtonPersonalizado = ({ style, children, type }) => (
+const ButtonPersonalizado = ({ style, children, type, target }) => (
   <TouchableOpacity
     style={[
       styles.container,
       style,
       type ? styles[`button-${type}`] : {},
     ]}
-    onPress={() => {}}
+    onPress={ target }
   >
     <Text style={[
       styles.text,
@@ -21,14 +21,14 @@ const ButtonPersonalizado = ({ style, children, type }) => (
   </TouchableOpacity>
 );
 
-const ButtonTabuada = ({ style, children, type }) => (
+const ButtonTabuada = ({ style, children, type, target }) => (
   <TouchableOpacity
     style={[
       styles.tabuada,
       style,
       type ? styles[`button-${type}`] : {},
     ]}
-    onPress={() => {}}
+    onPress= { target }
   >
     <Text style={[
       styles.text,
