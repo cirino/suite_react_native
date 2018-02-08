@@ -8,8 +8,8 @@ const Tabuada = () => {
         <View style={ styles.container }>
             <View style={styles.selecionar}>
                 <ButtonTabuada
-                target={() => alert("Lembre-se ...\nTabuada!")}>
-                    1
+                target={() => alert("Lembre-se ...\nTabuada! Validar componente")}>
+                   1
                 </ButtonTabuada>
                 <ButtonTabuada
                 target={() => alert("Lembre-se ...\nTabuada!")}>
